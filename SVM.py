@@ -37,7 +37,7 @@ def plot3d(data,categorie,titre,n_lignes=None):
     plt.show()
     
 # def main():
-df = pd.read_csv('data/cleaned/clean0.csv',sep=",")
+df = pd.read_csv('données/cleaned/clean0.csv',sep=",")
     
 df_id = df.iloc[:,0]
 df = df.drop(df.columns[0],axis=1)
